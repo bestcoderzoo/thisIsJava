@@ -9,5 +9,10 @@ public class CheckValueBeforeCasting {
             byte b = (byte) i;
             System.out.println(b);
         }
+
+        // 자바는 코드에서 데이터 값을 검사하기 위해 boolean과 char 타입을 제외하고 모든 기본 타입에
+        // 대해 최대값(max)과 최소값(min)을 다음과 같이 상수로 제공하고 있다.
+
+        
     }
 }
